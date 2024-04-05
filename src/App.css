@@ -1,0 +1,15 @@
+@media (max-width: 1199px) {
+  .App {
+    width: 900px;
+  }
+}
+@media (max-width: 899px) {
+  .App {
+    width: 600px;
+  }
+}
+@media (max-width: 599px) {
+  .App {
+    width: 320px;
+  }
+}

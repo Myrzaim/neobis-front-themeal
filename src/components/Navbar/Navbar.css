@@ -1,0 +1,15 @@
+.Navbar{
+    text-align: center;
+    background-color: #d49726;
+    height: 5rem;
+    width: 100%;
+    font-size: 28px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.Navbar>a{
+    margin: 0.5rem auto;
+    text-decoration: none;
+    color: white;
+}
