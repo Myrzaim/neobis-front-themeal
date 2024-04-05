@@ -1,4 +1,4 @@
-.home{
+.CardMeal{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -11,6 +11,7 @@
     width: 25rem;
     height: 25rem;
     border-radius: 1rem;
+    box-shadow: 3px 3px 7px gray;
 }
 h2{
     font-size: 30px;
