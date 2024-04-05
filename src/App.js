@@ -1,6 +1,7 @@
 import "./App.css";
 import CardMeal from "./components/CardMeal/CardMeal";
 import Home from "./components/Home/Home";
+import MealDetail from "./components/MealDetail/MealDetail";
 import Navbar from "./components/Navbar/Navbar";
 import Search from "./components/Search/Search";
 
@@ -8,9 +9,10 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Home />
+      {/* <Home />
       <Search />
-      <CardMeal />
+      <CardMeal /> */}
+      <MealDetail />
     </div>
   );
 }

@@ -1,0 +1,58 @@
+.MealDetail{
+    margin-top: 3rem;
+}
+.first-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left{
+    text-align: center;
+}
+.img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 7px gray;
+}
+h2{
+    font-size: 30px;
+}
+.title{
+    color: #d49726;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 1.5px;
+}
+.ingredients
+{
+text-align: left;
+
+}
+.ingredients p{
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+}
+.second-section{
+    margin: 3rem 2rem;
+}
+.second-section h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.second-section p{
+    font-family: "Raleway", sans-serif;
+    display: block;
+}
+.meal-detail-youtube{
+    background-color: red;
+    color: white;
+    height: 2rem;
+    border-radius: 5px;
+    padding: 1rem;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+}
