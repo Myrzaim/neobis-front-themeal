@@ -45,13 +45,14 @@ text-align: left;
 .second-section p{
     font-family: "Raleway", sans-serif;
     display: block;
+    margin-bottom: 5rem;
 }
 .meal-detail-youtube{
     background-color: red;
     color: white;
     height: 2rem;
     border-radius: 5px;
-    padding: 1rem;
+    padding: 1rem 2rem;
     text-decoration: none;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
