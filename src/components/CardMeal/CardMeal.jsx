@@ -1,11 +1,12 @@
 import React from "react";
 import "./CardMeal.css";
+import { Link } from 'react-router-dom';
 
 const CardMeal = () => {
   return (
     <div className="CardMeal">
       <div className="left">
-        <p className="title">Gigantes Plaki</p>
+        <p className="title">  <Link to="/Detail"> Gigantes Plaki</Link></p>
         <p>Vegetarian | Greek</p>
       </div>
       <div className="right">

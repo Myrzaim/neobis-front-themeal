@@ -1,4 +1,5 @@
 import "./App.css";
+import { Routes, Route } from "react-router-dom";
 import CardMeal from "./components/CardMeal/CardMeal";
 import Home from "./components/Home/Home";
 import MealDetail from "./components/MealDetail/MealDetail";
@@ -9,10 +10,11 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      {/* <Home />
-      <Search />
-      <CardMeal /> */}
-      <MealDetail />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Detail" element={<MealDetail />} />
+      </Routes>
     </div>
   );
 }
