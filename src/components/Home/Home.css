@@ -6,6 +6,7 @@
 }
 .left{
     text-align: center;
+    width: 30rem;
 }
 .img{
     width: 25rem;
@@ -22,4 +23,7 @@ h2{
     font-weight: 700;
     line-height: 58px;
     letter-spacing: 1.5px;
+}
+Link{
+    text-decoration: none!important;
 }

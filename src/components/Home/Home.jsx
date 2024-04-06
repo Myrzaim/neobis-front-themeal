@@ -2,24 +2,34 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Search from "../Search/Search";
 import "./Home.css";
+import { useState } from "react";
+import { useEffect } from "react";
+import axios from "axios";
 
+const RANDOM_API = "https://www.themealdb.com/api/json/v1/1/random.php";
 const Home = () => {
+  const [getMeal, setGetMeal] = useState([]);
+
+  useEffect(() => {
+    axios.get(RANDOM_API).then((data) => setGetMeal(data.data.meals[0]));
+  }, []);
+
   return (
     <>
       <div className="home">
         <div className="left">
           <h2>Meal of the Day</h2>
-          <p className="title">
-            <Link to="/Detail">Gigantes Plaki</Link>
+
+          <Link to={`/Detail/${getMeal.idMeal}`}>
+            <p className="title">{getMeal.strMeal}</p>
+          </Link>
+
+          <p>
+            {getMeal.strCategory} | {getMeal.strArea}
           </p>
-          <p>Vegetarian | Greek</p>
         </div>
         <div className="right">
-          <img
-            className="img"
-            src="https://www.themealdb.com/images/media/meals/b79r6f1585566277.jpg"
-            alt="meal"
-          />
+          <img className="img" src={getMeal.strMealThumb} alt="meal" />
         </div>
       </div>
       <Search />
