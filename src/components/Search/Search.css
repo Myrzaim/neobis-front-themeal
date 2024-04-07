@@ -1,0 +1,31 @@
+.search{
+    text-align: center;
+    margin-top: 5rem;
+}
+h2{
+    font-size: 30px;
+}
+.search__block{
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 5rem;
+}
+input{
+    background-color: #dcdcdc;
+    border: none;
+    border-radius: 3px;
+    height: 4rem;
+  outline: none;
+  width: 18rem;
+  font-size: 20px;
+  padding-left:2rem;
+}
+button{
+    color: white;
+    background-color: #d49726;
+border: none;
+border-radius: 3px;
+height: 4rem;
+width: 8rem;
+font-family: 700;
+font-size: 20px;
+}

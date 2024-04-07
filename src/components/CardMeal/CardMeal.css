@@ -1,0 +1,25 @@
+.CardMeal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+}
+.left{
+    text-align: center;
+}
+.img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 7px gray;
+}
+h2{
+    font-size: 30px;
+}
+.title{
+    color: #d49726;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 1.5px;
+}
