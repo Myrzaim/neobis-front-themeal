@@ -24,6 +24,6 @@ h2{
     line-height: 58px;
     letter-spacing: 1.5px;
 }
-Link{
+.detailLink{
     text-decoration: none!important;
 }

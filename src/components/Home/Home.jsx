@@ -20,7 +20,7 @@ const Home = () => {
         <div className="left">
           <h2>Meal of the Day</h2>
 
-          <Link to={`/Detail/${getMeal.idMeal}`}>
+          <Link className="detailLink" to={`/Detail/${getMeal.idMeal}`}>
             <p className="title">{getMeal.strMeal}</p>
           </Link>
 

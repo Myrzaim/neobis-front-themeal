@@ -14,7 +14,20 @@ const MealDetail = () => {
   }, []);
 
   function getIngredients(getMeal) {
-    let res;
+    let res = [];
+    for (let i = 1; i <= 20; i++) {
+      let ingredient = getMeal["strIngredient" + i];
+      let measure = getMeal["strMeasure" + i];
+      if (ingredient != "") {
+        res.push({ ingredient, measure });
+      }
+    }
+
+    return res.map((item) => (
+      <p>
+        {item.ingredient} <b>{item.measure}</b>
+      </p>
+    ));
   }
 
   const dd = "strIngredient1";
