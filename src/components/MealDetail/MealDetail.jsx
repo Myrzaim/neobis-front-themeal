@@ -30,8 +30,6 @@ const MealDetail = () => {
     ));
   }
 
-  const dd = "strIngredient1";
-
   return (
     <div className="MealDetail">
       <div className="first-section">
