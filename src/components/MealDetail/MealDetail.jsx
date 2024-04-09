@@ -25,12 +25,10 @@ const MealDetail = () => {
 
     return res.map((item) => (
       <p>
-        {item.ingredient}<b>{item.measure}</b>
+        {item.ingredient} <b>{item.measure}</b>
       </p>
     ));
   }
-
-  const dd = "strIngredient1";
 
   return (
     <div className="MealDetail">

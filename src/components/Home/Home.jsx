@@ -15,6 +15,11 @@ const Home = () => {
     axios.get(RANDOM_API).then((data) => setGetMeal(data.data.meals[0]));
   }, []);
 
+  function handleSearchOnChange(e) {
+    setInpSearch(e.target.value);
+    handleSearch(e);
+  }
+
   const handleSearch = async (e) => {
     e.preventDefault();
     try {
@@ -56,7 +61,7 @@ const Home = () => {
             type="text"
             placeholder="Find your meal"
             value={inpSearch}
-            onChange={(e) => setInpSearch(e.target.value)}
+            onChange={(e) => handleSearchOnChange(e)}
           />
           <button type="submit">Search</button>
         </form>

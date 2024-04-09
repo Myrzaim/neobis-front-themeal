@@ -57,3 +57,15 @@ text-align: left;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
 }
+
+@media screen and (max-width: 950px) {
+    .MealDetail{
+        margin:3rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .MealDetail{
+        margin:3rem;
+    }
+}
