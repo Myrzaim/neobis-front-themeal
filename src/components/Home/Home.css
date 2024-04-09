@@ -27,3 +27,9 @@ h2{
 .detailLink{
     text-decoration: none!important;
 }
+.CardMeal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+}
